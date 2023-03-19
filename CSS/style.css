@@ -67,9 +67,8 @@ header{
 }
 .headercentral{
     display: flex;
-    margin-left: 23%;
-    margin-right: 19%;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 5%;
     align-items: center;
 }
 #mitologia{
@@ -81,6 +80,7 @@ header{
 }
 #mitologia:hover{
     text-decoration: underline;
+    
 }
 .nav{
   text-shadow: none;  
