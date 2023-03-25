@@ -1,34 +1,35 @@
 /* CSS padrão das pagínas */
-@font-face {
+
+ @font-face{ /* adiciona fonte */
     font-family: roman;
     src: url(../fontes/fonte.ttf);
 }
-@font-face {
+@font-face { /* adiciona fonte */
     font-family: romanus;
     src: url(../fontes/ROMANUS.otf);
 }
-@font-face {
+@font-face { /* adiciona fonte */
     font-family: via;
     src: url(../fontes/Via\ Appia.ttf);
 }
-body{
-    margin: 0%;
-    background-color: rgba(41, 41, 41, 0.8);
+body{ 
+    margin: 0%; /* tira as margens */
+    background-color: rgba(41, 41, 41, 0.8); /* muda o fundo da página  */
 }
-.padrao{
-    text-align: justify;
-    margin-left: 23%;
-    margin-right: 23%;
-    width: 55%;
-    text-indent: 50px;
-    font-size: large;
-    border: 4px solid rgb(182, 155, 0);
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    background-color: #dccbb5;
-    border-radius: 3rem;
+.padrao{ /* meio da página onde fica os textos e as imagens */
+    text-align: justify; /* alinha o texto */
+    margin-left: 23%; /* muda a margem da esquerta para 23% */
+    margin-right: 23%; /* muda a margem da direita para 23% */
+    width: 55%; /* tamanho do quadrado onde fica os textos */
+    text-indent: 50px; /* começo de parágrafos */
+    font-size: large; /* tamanho da fonte */
+    border: 4px solid rgb(182, 155, 0); /* borda do quadrado dos textos*/
+    padding-left: 2rem; /* espaço entre os textos e a borda na esquerda */
+    padding-right: 2rem; /* espaço entre os textos e a borda na direita */
+    padding-top: 1rem; /* espaço entre os textos e a borda em cima */
+    padding-bottom: 2rem; /* espaço entre os textos e a borda em baixo*/
+    background-color: #dccbb5; /* cor do fundo do quadrado*/
+    border-radius: 3rem; /* arredondar a borda */
    
 }
 .titulo{
@@ -56,30 +57,30 @@ img{
     display: block;
     width: 30rem;
 }
-header{
-    background-color: #d7b52c;
-    text-shadow: 
+header{ /* cabeçalho da página */
+    background-color: #d7b52c; /* cor de fundo do header */
+    text-shadow: /* deixar as letras com uma borda amarela */
     -1px -1px 0px gold, 
     -1px 1px 0px gold,      
      1px -1px 0px gold,    
      1px 0px 0px gold;
      
 }
-.headercentral{
-    display: flex;
-    justify-content: center;
-    margin-left: 5%;
-    align-items: center;
+.headercentral{ /* centralizar o header junto com os textos */
+    display: flex; /* deixar os elementos do header alinhados */
+    justify-content: center; /* deixar o header nop centro  */
+    margin-left: 5%; /* margin para a esquerda */
+    align-items: center; /* alinhar os itens ao meio */
 }
-#mitologia{
-    font-family: roman;
-    text-decoration: none;
-    transition: 1ms;
-    color: black;
-    font-size: xx-large;
+#mitologia{ /* título no header */
+    font-family: roman; /* estilo da fonte */
+    text-decoration: none; /* tirar o sublinhado de link */
+    transition: 1ms; /* tempo que demorar para a animação */
+    color: black; /* cor da letra */
+    font-size: xx-large; /* tamanho da fonte */
 }
-#mitologia:hover{
-    text-decoration: underline;
+#mitologia:hover{ /* animação da #mitologia ao passar o mouse por cima */
+    text-decoration: underline; /* deixar o título sublinhado */
     
 }
 .nav{
@@ -112,34 +113,41 @@ nav .area:hover{
 }
 footer{
     background-color: #d7b52c;
-    border: 2px solid black;
-    border-radius: 1rem;
     line-height: 0;
 }
-.fig{
-    font-size: xx-small;
-    text-align: center;
+.fot{ /* footer centralizado */
+    margin-left: 23%; /* margem para esquerda  */
+    margin-right: 23%; /* margem para a direita */
+    justify-content: space-around; /* organizar a imagem e os textos */
+    display: flex; /* deixar os elementos do footer alinhados */
+    align-items: center; /* deixar os elementos no meio  */
+}
+.simb_fot{ /* tamanho da logo nop footer */
+    width: 5rem; /* tamanho da imagem */
+}
+.fig{ /* tamanho do figcaption */
+    font-size: xx-small; /* tamanho da fonte */
+    text-align: center; /* posição do título  */
 }
     
 /* mourvan */
-#titulo_mourvan{
-    text-align: center;
-    font-size: xx-large;
-    font-family: via;
-    letter-spacing: 3px;
-    font-weight: bold;
-    background-color: rgb(207, 154, 39);
-    border: 4px inset darkblue;
-    border-radius: 1rem;
-    text-align: center;
-    margin-left: 23%;
-    margin-right: 23%;
-    text-indent: 0%;
+#titulo_mourvan{ /* título entre bordas */
+    text-align: center; /* posição do título */
+    font-size: xx-large; /* tamanho da fonte  */
+    font-family: via; /* estilo da fonte */
+    letter-spacing: 3px; /* espaço entre as letras */
+    font-weight: bold; /* letras em negrito */
+    background-color: rgb(207, 154, 39); /* cor de fundo do título */
+    border: 4px inset darkblue; /* borda */
+    border-radius: 1rem; /* arredodar a borda */
+    margin-left: 23%; /* margem para a esquerda */
+    margin-right: 23%; /* margem para a direita */
+    text-indent: 0%; /* retirar começo de parágrados */
 }
-.imagens_mourvan{
-    width: 30rem;
-    border: 6px groove darkslateblue ;
-    border-radius: 25px;
+.imagens_mourvan{ /* deixar as imagens arredondadas */
+    width: 30rem; /* tamanho das imagens */
+    border: 6px groove darkslateblue ; /* borda das imagens */
+    border-radius: 25px; /* arredondar as bordas das imagens */
 }
 /* victor */
 .img-rotate{
