@@ -1,6 +1,6 @@
 /* CSS padrão das pagínas */
 
- @font-face{ /* adiciona fonte */
+@font-face{ /* adiciona fonte */
     font-family: roman;
     src: url(../fontes/fonte.ttf);
 }
@@ -32,27 +32,27 @@ body{
     border-radius: 3rem; /* arredondar a borda */
    
 }
-.titulo{
-    position: relative;
-    left: 22%;
-    width: 50%;
+.titulo{ /*Todos os títulos */
+    position: relative; 
+    left: 22%; 
+    width: 50%; /*tamanho do espaço onde ficará o titulo. */
     text-align: center;
     font-size: xx-large;
     font-family: via;
     letter-spacing: 3px;
     font-weight: bold;
 }
-.titulodaimg{    
-    position: relative;
-    left: 22%;
-    width: 50%;
-    text-align: center;
-    font-size: x-large;
+.titulodaimg{    /* titulo de uma imagem */
+    position: relative; /*a posição será relativa*/
+    left: 22%; /*ficará 22% a esquerda*/
+    width: 50%; /*a largura será de 50%*/
+    text-align: center; /*o titulo ficara alinhando no centro*/
+    font-size: x-large; /*o tamanho da fonte será grande.*/
     font-family: via;
-    letter-spacing: 3px;
-    font-weight: bold;
+    letter-spacing: 3px; /*o espaçamento das letras será de 3px*/
+    font-weight: bold; /*A intensidade da fonte ficará em negrito*/
 }
-img{
+img{ /*Tamanho e posição das imagens */
     margin: auto;
     display: block;
     width: 30rem;
@@ -83,15 +83,15 @@ header{ /* cabeçalho da página */
     text-decoration: underline; /* deixar o título sublinhado */
     
 }
-.nav{
+.nav{ /*parte onde fica os links para a troca de páginas.*/
   text-shadow: none;  
   display: inline;
   padding-left: 20px;
   font-size: large;
 }
 
-.area{
-    color: rgb(61, 61, 61);
+.area{ /*parte onde fica os botões*/
+    color: rgb(61, 61, 61); 
     text-decoration: none;
     border: 2px solid blue;
     padding: 3px 7px;
@@ -100,18 +100,18 @@ header{ /* cabeçalho da página */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 8px;
 }
-nav .area:hover{
+nav .area:hover{ /*mudança da cor do botão quando se passa o cursor encima.*/
     background-color: gray;
     color: white;
     border: 3px solid gold;
 }
-#simb_horus{
+#simb_horus{ /*tamanho do simbolo*/
     width: 5rem;
 }
 #simb_header{
     display: flex;
 }
-footer{
+footer{ /* parte do rodapé da página*/ 
     background-color: #d7b52c;
     line-height: 0;
 }
@@ -150,23 +150,22 @@ footer{
     border-radius: 25px; /* arredondar as bordas das imagens */
 }
 /* victor */
-.img-rotate{
-    overflow: hidden;
+ .img-rotate{  /*imagem que ira girar*/
+    overflow: hidden; /*Esconde o conteúdo além da borda */
 }
-.img-rotate{
-    transition: all 2s;
-    box-sizing: border-box;
-    max-width: 100%;
+.img-rotate{ 
+    transition: all 2s; /* O que faz a imagem girar, e levara apenas 2 segundos. */
+    box-sizing: border-box; /*Foi utilizado para calcular a largura e altura da imagem,para que nao haja alteração na hora que o transition for executado. */
+    max-width: 100%; /*O tamanho da imagem será de 100% */
 }
-.img-rotate:hover{
-    transform: scale(1.0) rotate(360deg);
+.img-rotate:hover{ 
+    transform: scale(1.0) rotate(360deg); /*Na transformação a escala terá apenas 1.0, e o img dará uma volta de 360°. */
 }
 
 /* abner */
 .duat{
     background-image: url(../imagens/duat.png);
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 /* henrique */
-
