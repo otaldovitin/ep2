@@ -1,4 +1,4 @@
-Este foi o segundo trabalho da escola que eu fiz, em conjunto com alguns colegas, utilizamos HTML5 e CSS3.
+Este foi o 2° trabalho da escola que eu fiz, em conjunto com alguns colegas, utilizamos HTML5 e CSS3.
 
 ![1](https://github.com/otaldovitin/ep2/assets/127848624/5c568a28-4bd7-470f-a673-c030a193548c)
 
